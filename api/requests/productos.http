@@ -1,0 +1,32 @@
+### GET all productos
+GET http://localhost:3000/productos
+
+### create producto
+POST http://localhost:3000/productos
+Content-Type: application/json
+
+{
+  "nombre": "zapato",
+  "url": "zapato",
+  "precio": "7",
+  "cantidad": "76",
+  "descripcion": "zapato negro",
+  "categoria": "zapato tenis",
+
+
+
+}
+
+### GET producto
+GET http://localhost:3000/productos/5f810077ea69c100198323c0
+
+### DELETE VIDEO
+DELETE http://localhost:3000/productos/5f810077ea69c100198323c0
+
+### UPDATE
+PUT http://localhost:3000/productos/5f8100a4ea69c100198323c1
+Content-Type: application/json
+
+{
+  "nombre": "Hello updated"
+}
