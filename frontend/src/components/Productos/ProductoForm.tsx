@@ -11,7 +11,7 @@ interface Params {
   id?: string;
 }
 
-const ProductForm = () => {
+const ProductoForm = () => {
   const initialState = {
     nombre: "",
     precio: "",
@@ -38,7 +38,7 @@ const ProductForm = () => {
   }, [params.id]);
 
   const handleInputChange = (e: InputChange) =>
-    setProducto({ <div className="producto"></div>, [e.target.name]: e.target.value });
+    setProducto({ <div className="producto"></div>[e.target.name]: e.target.value });
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();

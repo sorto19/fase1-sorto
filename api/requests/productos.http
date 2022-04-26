@@ -1,7 +1,7 @@
 ### GET all productos
 GET http://localhost:3000/productos
 
-### create producto
+### created producto
 POST http://localhost:3000/productos
 Content-Type: application/json
 
@@ -20,7 +20,7 @@ Content-Type: application/json
 ### GET producto
 GET http://localhost:3000/productos/5f810077ea69c100198323c0
 
-### DELETE VIDEO
+### DELETE producto
 DELETE http://localhost:3000/productos/5f810077ea69c100198323c0
 
 ### UPDATE
